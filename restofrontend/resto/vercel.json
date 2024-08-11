@@ -9,11 +9,11 @@
         }
       }
     ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "restofrontend/resto/dist/$1"
-        }
+    "routes":[
+      {
+        "src": "/(.)",
+        "dest": "restofrontend/resto/dist/$1"
+      }
     ]
   }
   
