@@ -8,6 +8,12 @@
           "buildCommand": "npm run build"
         }
       }
+    ],
+    "rewrites": [
+        {
+            "sources":"/(.*)",
+            "destination": "/index.html"
+        }
     ]
   }
   
