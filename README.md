@@ -1,5 +1,5 @@
 # Restaurant-app
-The application is build using Django for the backend and React+tailwindcss for the frontend.
+The application is build using Django framework for the backend and React + tailwindcss for the frontend.
 
 Visitors are able to:
 
