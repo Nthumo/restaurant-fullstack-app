@@ -1,4 +1,4 @@
-#Restaurant-app
+# Restaurant-app
 The application is build using Django for the backend and React+tailwindcss for the frontend.
 This application as an attractive and friendly UI to welcome the visitors.
 Visitors are able to:
