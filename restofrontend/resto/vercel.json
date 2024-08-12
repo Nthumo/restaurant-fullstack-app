@@ -1,10 +1,10 @@
 {
     "builds": [
       {
-        "src": "restofrontend/resto/package.json",
+        "src": "resto/package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "restofrontend/resto/dist",
+          "distDir": "resto/dist",
           "buildCommand": "npm run build"
         }
       }
