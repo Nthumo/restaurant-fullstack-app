@@ -11,8 +11,9 @@
     ],
     "routes":[
       {
-        "src": "/(.)",
-        "dest": "restofrontend/resto/dist/$1"
+        "src": "/(^.)+",
+        "dest": "/",
+        "status": 200
       }
     ]
   }
