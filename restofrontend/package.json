@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "cd resto && npm run build",
-    "dev": "vite",
-    "start": "vite preview"
+    "dev": "cd rest && vite",
+    "preview": "cd resto && vite preview"
   }
 }
