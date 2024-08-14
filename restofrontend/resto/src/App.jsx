@@ -35,7 +35,7 @@ const App = () => {
 };
 
 const AppWrapper = () => (
-  <Router>
+  <Router basename="">
     <App />
   </Router>
 );
