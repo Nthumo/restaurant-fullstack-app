@@ -55,7 +55,7 @@ const Footer = () =>{
                         <div className="md:fixed bottom-8 right-36 md:bottom-4 md:right-40">
                             <button
                             onClick={openContact}
-                            className="text-white bg-black p-1 text- hover:bg-gray-400 hover:text-black border hover:border-black hover:scale-105 italic md:rounded-lg"
+                            className="text-white bg-black p-1 hover:bg-gray-400 hover:text-black border hover:border-black hover:scale-105 italic md:rounded-lg"
                             >
                                 Contact Us
                             </button>

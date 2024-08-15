@@ -65,7 +65,6 @@ const Modal = ({isOpen, onClose}) => {
                 </button>
             
             <div className="bg-gray-400 p-8 rounded-lg shadow-lg  md:h-signup relative max-w-4xl w-full mx-4 mt-12 md:mt-0">
-                
                 <h2 className="text-2xl font-bold text-center mb-4">Email Signup</h2>
                 <form className="relative md:left-20 space-y-4 max-w-2xl" onSubmit={handleSubmit}>
                     <div>
@@ -76,7 +75,7 @@ const Modal = ({isOpen, onClose}) => {
                         type="text" 
                         id="first_name"
                         name="first_name"
-                        className="md:w-full px-3 py-2 border border-gray-600 rounded-lg"
+                        className="w-full px-3 py-2 border border-gray-600 rounded-lg"
                         required
                         onChange={handleChange}
                         />
@@ -89,7 +88,7 @@ const Modal = ({isOpen, onClose}) => {
                         type="text" 
                         id="second_name"
                         name="second_name"
-                        className="md:w-full px-3 py-2 border border-gray-600 rounded-lg"
+                        className="w-full px-3 py-2 border border-gray-600 rounded-lg"
                         required
                         onChange={handleChange}
                         />
@@ -102,7 +101,7 @@ const Modal = ({isOpen, onClose}) => {
                         type="text" 
                         id="email"
                         name="email"
-                        className="md:w-full px-3 py-2 border border-gray-600 rounded-lg"
+                        className="w-full px-3 py-2 border border-gray-600 rounded-lg"
                         onChange={handleChange}
                         />
                     </div>

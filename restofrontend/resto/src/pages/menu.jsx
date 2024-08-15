@@ -69,7 +69,6 @@ const MenuPage = () => {
                 </button>
             </div> 
             <div className="bg-gradient-to-r from-black via-gray-700 to-black w-menuphone md:w-menu overflow-y-auto mb-0 md:h-svh h-menu ">
-
                 <div className="space-x-8 text center text-2xl flex justify-center pt-16 md:pt-8 text-white text-xl sticky top-0 z-10">
                     <button 
                     onClick={() => handleCategoryChange('Lunch')}

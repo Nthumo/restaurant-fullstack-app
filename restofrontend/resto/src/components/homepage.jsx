@@ -13,8 +13,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
     return(
         <>
         
-        <div className=" pt-16 grid place-items-center scroll-smooth">
-            <div className="bg-black z-0"></div>
+        <div className=" pt-16 grid place-items-center">
             <Carousel 
             showArrows={true}
             showIndicators={false}
@@ -34,7 +33,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
                 ))}
             </Carousel>
              
-            <div className="bg-gradient-to-r from-gray-800 to-gray-400 rounded-xl md:absolute right-5 text-center p-4 md:p-4 shadow-xl shadow-black top-16 w-auto md:w-home1 h-auto md:h-home md:mt-0 mt-8">
+            <div className="bg-gradient-to-r from-gray-800 to-gray-400 rounded-xl md:absolute md:right-5 text-center p-4 shadow-xl shadow-black top-16 w-auto md:w-home1 h-auto md:h-home md:mt-0 mt-8">
                 <h1 className="underline text-white font-bold text-xl">OUR STORY</h1>
                 <p className="text-black mt-4 text-center text-base md:text-xl font-bold">
                     Resto is one of the few formal restaurants in Nairobi serving Authentic African Cuisine,
@@ -59,7 +58,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
         <div className="bg-gradient-to-r from-gray-800 via-gray-300 to-gray-800 md:mt-4 h-auto md:h-land md:mb-10 rounded-lg">
             <div className='md:pt-16 pt-8'>
                 <h1 className='text-center font-bold text-xl'>Another Quote 😂</h1>
-                <div className="md:absolute md:inset-x-1/3 md:mt-4  mt-10 flex justify-center text-center w-auto md:w-home">
+                <div className="md:absolute md:inset-x-1/3 md:mt-4 mt-10 flex justify-center text-center w-auto md:w-home">
                     <p className="text-black text-4xl h-checkout p-8 text-cente shadow-black shadow-md font-bold ">
                         " We all eat, and it would be a waste of opportunity to eat badly "
                     </p>
@@ -70,7 +69,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
                 <div className="md:absolute flex justify-center items-center md:left-8 md:rounded-none bg-black md:h-checkout md:w-home1 text-center p-6 md:p-4 shadow-lg shadow-gray-200 md:shadow-blue-800 md:bottom-28 mt-16 md:mt-0">
                     <div>
-                        <h1 className="md:text-4xl text-3xl  font-bold text-white underline decoration-white">Checkout our menu</h1>
+                        <h1 className="md:text-4xl text-3xl font-bold text-white underline decoration-white">Checkout our menu</h1>
                         <Link to="/menu">
                             <button className="bg-gray-400 md:text-3xl text-xl md:rounded-none rounded-lg text-black p-2 w-32 md:shadow-md md:shadow-gray-600 hover:bg-black border hover:border-white hover:text-white hover:scale-105 mb:mt-16 mt-10 md:mb-0 mb-6">
                                 Menu

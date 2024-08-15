@@ -16,7 +16,7 @@ const Header = () => {
 
 
 
-    const restoClassNames= `fixed text-3xl md:text-8xl font-bold z-10 text-black hover:text-white italic transform  transition-transform duration-300 ease-in-out hidden md:block`;
+    const restoClassNames= `fixed text-3xl md:text-8xl font-bold z-10 text-black hover:text-white italic transform transition-transform duration-300 ease-in-out hidden md:block`;
     const headerClassNames = `fixed top-0 mt-1 md:mt-0 left-1/2 transform -translate-x-1/2 w-full md:w-1/2 text-center z-10 transition-transform duration-500 ease-in-out `;
 
 
@@ -29,7 +29,7 @@ const Header = () => {
                 <Link to="/" className="flex">RESTO</Link>
             </div>
             <div className={headerClassNames}>
-                <div className="flex items-center justify-center font-mono rounded-lg  bg-opacity-60 bg-black md:bg-opacity-35 backdrop-blur-hd border md:bg-none md:h-14 h-12 container absolute mx-0 top-0 ">
+                <div className="flex items-center justify-center font-mono rounded-lg bg-opacity-60 bg-black md:bg-opacity-35 border md:h-14 h-12 container absolute mx-0 top-0 ">
                     <div className="space-x-3 text-white md:p-4 md:space-x-14 font-bold md:text-xl">
                         <Link to="/menu" className="underline ">Menu</Link>
                         <Link to="/events" className="underline ">Events</Link>
